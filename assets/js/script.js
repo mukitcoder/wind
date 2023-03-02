@@ -3,6 +3,30 @@
 	"use strict";
 
 
+	// $(document).ready(function(){
+	// 	$(".dropdown").hover(function(){
+	// 		var dropdownMenu = $(this).children(".dropdown-menu");
+	// 		if(dropdownMenu.is(":visible")){
+	// 			dropdownMenu.parent().toggleClass("show");
+	// 		}
+	// 	});
+	// }); 
+
+	// $(document).ready(function(){
+	// 	$(".dropdown").hover(            
+	// 		function() {
+	// 			$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+	// 			$(this).toggleClass('open');        
+	// 		},
+	// 		function() {
+	// 			$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+	// 			$(this).toggleClass('open');       
+	// 		}
+	// 	);
+	// });
+
+	
+
 	$(document).ready(function () {
 		$("ul.navbar-nav > li").click(function (e) {
 		 $("ul.navbar-nav > li").removeClass("active");

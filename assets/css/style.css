@@ -36,11 +36,9 @@
 
 @import url('fontawesome-all.css');
 @import url('animate.css');
-@import url('icomoon.css');
 @import url('jquery.fancybox.min.css');
 @import url('swiper.min.css');
 @import url('rtl.css');
-@import url('elpath.css');
 @import url('nice-select.css');
 @import url('odometer.min.css');
 
@@ -1828,7 +1826,7 @@ ul.hero-list-text li::before{
 
 .progress-text-2{
 	color: var(--black-color);
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 600;
     line-height: 32px;
 }
@@ -2063,7 +2061,7 @@ li.accordion.active-block {
 	right: -260px;
 	width: 100%;
 	height: 100%;
-	background-image: url(./images/images/shape/shape-3.png);
+	background-image: url(../images/shape/shape-3.png);
 	background-repeat: no-repeat;
 	background-position: center right;
 }
@@ -2271,9 +2269,6 @@ ul.contact-widget-1-list i {
 }
 
 
-
-
-
 /*** 
 ====================================================================
 	Mega Menu
@@ -2347,3 +2342,178 @@ ul.contact-widget-1-list i {
 .navbar-light .navbar-nav .nav-link {
 	color: var(--theme-color);
 }
+
+.navbar .navbar-nav a{
+	position: relative;
+	margin-right: 10px;
+}
+
+.navbar .navbar-nav a::before{
+    content: "\f107";
+    position: absolute;
+    top: 10px;
+    right: -7px;
+    font-family: "Font Awesome 5 Pro";
+}
+
+/* .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu{
+	margin-top: 0;
+} */
+
+.navbar .navbar-nav .icon-box a{
+    position: relative;
+}
+
+.navbar .navbar-nav .icon-box a::before{
+    content: "\f105";
+    position: absolute;
+	top: 5px;
+    right: -22px;
+    font-family: "Font Awesome 5 Pro";
+}
+
+
+
+/*** 
+====================================================================
+	Bubbles Animation
+====================================================================
+***/
+
+
+
+#bubbles { height: 100% }
+#bubbles { padding: 100px 0 }
+.bubble {
+    width: 60px;
+    height: 60px;
+    background: #ffb200;
+    border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    position: absolute;
+}
+
+.x1 {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.2;
+  background: red;
+    -webkit-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -o-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+
+.x2 {
+    left: 600px;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.5;
+    -webkit-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    -o-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+}
+.x3 {
+    left: 1000px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -o-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+.x4 {
+    left: 1400px;
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+    opacity: 0.35;
+    -webkit-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -o-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+.x5 {
+    left: 200px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.3; 
+    -webkit-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    -moz-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+    -o-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes moveclouds { 
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes moveclouds {     
+    0% { 
+        top: 500px;
+    }
+
+    100% { 
+        top: -500px;
+    }
+}
+
+@-moz-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+@-o-keyframes moveclouds {
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+@-o-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
