@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Confiz             ||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||       MASTER STYLESHEET            ||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -1444,7 +1444,7 @@ ul.header-top-1-contact-info li a:hover {
 .hidden-sidebar .newsletter-widget .theme-btn:before {
 	background-color: #222;
 }
-.nav-overlay {
+/* .nav-overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1456,7 +1456,7 @@ ul.header-top-1-contact-info li a:hover {
 	overflow: hidden;
 	-webkit-transform: translate3d(0, 0, 0);
 	cursor: none;
-}
+} */
 
 
 
@@ -1750,10 +1750,6 @@ ul.hero-list-text li::before{
 
 .fund-section .sec-title{
 	padding-top: 30px;
-}
-
-.fund-section .left-column{
-	/* padding-right: 120px; */
 }
 
 .fund-section form label {
@@ -2270,8 +2266,11 @@ ul.contact-widget-1-list i {
 ====================================================================
 ***/
 
-.paypeoples-menu .left-side {
+.paypeoples-menu .left-border {
     border-right: 1px solid #75808A;
+}
+
+.paypeoples-menu .left-side {
 	padding: 40px 0;
 }
 
@@ -2291,7 +2290,7 @@ ul.contact-widget-1-list i {
 }
 
 .paypeoples-menu .right-side{
-	padding: 40px 0;
+	padding: 40px;
    }
 
 .paypeoples-menu .right-side img{
@@ -2313,4 +2312,16 @@ ul.contact-widget-1-list i {
     margin-top: 10px;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.paypeoples-menu .navbar-nav > .active > a.nav-link{
+	color: var(--theme-color);
+}
+
+.login .login-btn {
+	color: var(--theme-color);
+}
+
+.login:hover .login-btn {
+	color: var(--black-color);
 }
