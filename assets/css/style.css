@@ -2347,14 +2347,14 @@ ul.contact-widget-1-list i {
 
 .navbar .navbar-nav a{
 	position: relative;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .navbar .navbar-nav a::before{
     content: "\f107";
     position: absolute;
     top: 10px;
-    right: -7px;
+    right: -10px;
     font-family: "Font Awesome 5 Pro";
 }
 
