@@ -1632,6 +1632,10 @@ ul.hero-list-text li::before{
 ====================================================================
 ***/
 
+.personal-use-section.business{
+	margin-top: 100px;
+}
+
 .personal-use-section.business .btn-column a{
 	margin-right: 10px;
 }
