@@ -1668,7 +1668,7 @@ ul.hero-list-text li::before{
 .business-image{
 	position: absolute;
     top: 0;
-    left: -5px;
+    left: 2px;
     height: 100%;
     width: 100%;
     min-width: 1175px;
@@ -2328,11 +2328,7 @@ ul.contact-widget-1-list i {
     border-radius: 10px;
 }
 
-/* .paypeoples-menu .navbar-nav > .active > a.nav-link{
-	color: var(--theme-color);
-} */
-
-.paypeoples-menu .navbar-nav > a.nav-link.dropdown-toggle.show{
+.paypeoples-menu .navbar-nav > .active > a.nav-link{
 	color: var(--theme-color);
 }
 
@@ -2342,4 +2338,8 @@ ul.contact-widget-1-list i {
 
 .login:hover .login-btn {
 	color: var(--black-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: var(--theme-color);
 }
