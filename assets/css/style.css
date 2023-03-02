@@ -2333,6 +2333,7 @@ ul.contact-widget-1-list i {
 
 .login .login-btn {
 	color: var(--theme-color);
+	font-size: 18px;
 }
 
 .login:hover .login-btn {
@@ -2341,6 +2342,7 @@ ul.contact-widget-1-list i {
 
 .navbar-light .navbar-nav .nav-link {
 	color: var(--theme-color);
+	font-size: 18px;
 }
 
 .navbar .navbar-nav a{

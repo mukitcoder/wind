@@ -79,6 +79,11 @@
 	ul.hero-list-text {
 		display: block !important;
 	}
+
+	.navbar .navbar-nav a::before {
+		display: none;
+	}
+
 }
 
 @media only screen and (max-width: 991px){
