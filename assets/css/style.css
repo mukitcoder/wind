@@ -1830,6 +1830,12 @@ ul.hero-list-text li::before{
 }
 
 
+.fund-section .inner-text{
+	display: flex;
+	justify-content: left;
+	align-items: end;
+}
+
 /*** 
 ====================================================================
 	Form Input
@@ -1837,12 +1843,12 @@ ul.hero-list-text li::before{
 ***/
 
 .faq-section {
-	padding: 140px 0;
+	padding: 100px 0;
 	/* background: linear-gradient(90deg, rgba(251,241,224,1) 0%, rgba(247,244,251,1) 50%, rgba(235,246,227,1) 100%); */
 }
 
 .faq-section .sec-title{
-	margin-bottom: 80px;
+	margin-bottom: 120px;
 }
 
 .bottom-btn h3{
@@ -2274,8 +2280,12 @@ ul.contact-widget-1-list i {
     border-right: 1px solid #75808A;
 }
 
+.paypeoples-menu .auto-container{
+	max-width: 1440px;
+}
+
 .paypeoples-menu .left-side {
-	padding: 40px 0;
+	padding: 40px 27px;
 }
 
 .paypeoples-menu .icon-box {
@@ -2318,7 +2328,11 @@ ul.contact-widget-1-list i {
     border-radius: 10px;
 }
 
-.paypeoples-menu .navbar-nav > .active > a.nav-link{
+/* .paypeoples-menu .navbar-nav > .active > a.nav-link{
+	color: var(--theme-color);
+} */
+
+.paypeoples-menu .navbar-nav > a.nav-link.dropdown-toggle.show{
 	color: var(--theme-color);
 }
 
