@@ -106,7 +106,18 @@
 	.personal-right img{
 		display: none;
 	}
+
+	.login {
+		display: flex;
+	}
+
+	.login-btn {
+		padding: 10px 0px;
+	}
+
 }
+
+
 @media only screen and (min-width: 768px){
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
@@ -114,6 +125,7 @@
 		visibility:hidden;
 		opacity:0;
 	}
+
 }
 @media only screen and (max-width: 767px){	
 	
@@ -126,7 +138,7 @@
 	}
 
 	.hero-section{
-	padding: 100px 0;
+	padding: 150px 0 100px 0;
 	}
 
 	.hero-section .upper-text h1 {
@@ -146,6 +158,14 @@
 
 	.accordion-box .block .acc-btn {
 		font-size: 1.5rem;
+	}
+
+	#bubbles {
+		padding: 0;
+	}
+
+	.personal-left {
+		padding: 40px;
 	}
 
 }
@@ -169,6 +189,54 @@
 		margin-left: 0;
 		width: 100%;
 	}
+
+	.feature .icon-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.feature .icon-box img{
+		margin-bottom: 20px;
+	}
+
+	.feature-section {
+		padding: 70px 0;
+	}
+
+	.personal-use-section.choose .bg-color {
+		padding: 70px 0;
+	}
+
+	.personal-use-section.choose .bg-color .sec-title {
+		margin-bottom: 0;
+	}
+
+	.personal-left .app-image {
+		padding: 50px 0 50px 0;
+	}
+
+	.newsletter-section {
+		padding: 0 0 50px 0;
+	}
+
+	.personal-use-section .bg-color {
+		border-radius: 0;
+	}
+
+	.personal-use-section .bg-color.one {
+		border-radius: 0;
+	}
+
+	.newsletter-section .bg-image {
+		border-radius: 0;
+	}
+
+	.personal-left {
+		margin-top: 20px;
+	}
+
 }
 
 

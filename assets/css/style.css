@@ -1704,7 +1704,9 @@ ul.hero-list-text li::before{
 	font-size: 18px;
 }
 
-
+.feature .icon-box .text.one{
+	margin-bottom: 21px;
+}
 
 /*** 
 ====================================================================
@@ -1742,6 +1744,7 @@ ul.hero-list-text li::before{
 .personal-use-section.choose .personal-right img {
     max-width: 420px;
 }
+
 
 
 /*** 
@@ -1796,7 +1799,7 @@ ul.hero-list-text li::before{
 
 .fund-section .progress-text{
 	color: var(--theme-color);
-	font-size: 22px;
+	font-size: 18px;
     font-weight: 700;
     line-height: 32px;
 }
@@ -1836,6 +1839,10 @@ ul.hero-list-text li::before{
 	display: flex;
 	justify-content: left;
 	align-items: end;
+}
+
+.fund-section .text-left img{
+	width: 125px;
 }
 
 /*** 
