@@ -86,6 +86,30 @@
 
 }
 
+@media only screen and (max-width: 1024px){
+	ul.hero-list-text {
+		display: block !important;
+	}
+
+	.navbar .navbar-nav a::before {
+		display: none;
+	}
+
+	/* .newsletter-sectio .hero-form form{
+		display: flex;
+		justify-content: center;
+	} */
+
+	.newsletter-section .inner {
+		padding: 60px 20px;
+	}
+
+	.newsletter-section .bg-image {
+		border-radius: 0px;
+	}
+
+}
+
 @media only screen and (max-width: 991px){
 	.auto-container {
 		max-width: 700px;
@@ -113,6 +137,10 @@
 
 	.login-btn {
 		padding: 10px 0px;
+	}
+
+	.paypeoples-menu .left-border{
+		border: none;
 	}
 
 }
@@ -269,8 +297,19 @@
 	.header-style-one .serach-icon {
 		margin-right: 0px;
 	}
+
 }
 
+@media only screen and (max-width: 450px){
+	.personal-left .sec-title::before {
+		right: 135px;
+	}
+	.personal-use-section.business .personal-left .sec-title::before {
+		right: 0;
+		width: 200px;
+	}
+
+}
 
 
 
