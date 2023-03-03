@@ -492,7 +492,7 @@ a.btn-1.btn-alt:hover i {
 .navbar .navbar-nav .icon-box a::before{
     content: "\f105";
     position: absolute;
-	top: 5px;
+	top: 2px;
     right: -22px;
     font-family: "Font Awesome 5 Pro";
 }
