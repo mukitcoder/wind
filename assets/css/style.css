@@ -1498,7 +1498,7 @@ ul.header-top-1-contact-info li a:hover {
 ***/
 
 .hero-section{
-	padding: 300px 0;
+	padding: 300px 0 100px 0;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -1516,8 +1516,8 @@ ul.header-top-1-contact-info li a:hover {
 .hero-section .upper-text h1::before{
 	content: "";
     position: absolute;
-    right: 120px;
-    bottom: 20px;
+	right: 296px;
+    bottom: 9px;
     width: 100%;
     height: 100%;
 	background-image: url(../images/shape/shape-4.svg);
