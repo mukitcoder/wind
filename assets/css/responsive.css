@@ -44,9 +44,9 @@
 
 }
 
-@media only screen and (max-width: 1260px){
+@media only screen and (max-width: 1360px){
 	.hero-section .upper-text h1::before {
-		right: 115px;
+		display: none;
 	}
 
 }
