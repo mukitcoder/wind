@@ -441,10 +441,6 @@ a.btn-1.btn-alt:hover i {
     border-radius: 10px;
 }
 
-.paypeoples-menu .navbar-nav > .active > a.nav-link{
-	color: var(--theme-color);
-}
-
 .paypeoples-menu .icon-box .text{
 	margin: 0;
 }
@@ -1318,8 +1314,6 @@ ul.contact-widget-1-list i {
 ====================================================================
 ***/
 
-
-
 #bubbles { height: 100% }
 #bubbles { padding: 100px 0 }
 .bubble {
@@ -1438,10 +1432,72 @@ ul.contact-widget-1-list i {
 }
 
 
+/*** 
+====================================================================
+	Page Title
+====================================================================
+***/
+
+.page-title{
+	padding: 250px 0 100px 0;
+	background: linear-gradient(90deg, rgba(250,237,237,1) 0%, rgba(255,255,255,1) 50%, rgba(252,245,233,1) 100%);
+}
+
+.page-title h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+	color: #6E6E6E;
+	margin-bottom: 36px;
+}
+
+.page-title .text-2{
+	color: var(--theme-color);
+	margin-bottom: 36px;
+}
+
+.page-title p {
+	font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+	line-height: 36px;
+	color: var(--black-color);
+}
 
 
+/*** 
+====================================================================
+	Mission Section
+====================================================================
+***/
 
+.mission-section{
+	padding: 100px 0 0;
+}
 
+.mission{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50px;
+}
 
+.mission-inner{
+	padding: 85px;
+}
 
+.mission-text h4{
+	font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+	color: var(--theme-color);
+}
 
+.mission-text .text li{
+	font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: var(--black-color);
+    letter-spacing: -1px;
+}
