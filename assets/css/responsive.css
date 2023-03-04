@@ -151,6 +151,34 @@
 		border: none;
 	}
 
+	.personal-use-section.choose .bg-color .sec-title {
+		margin-bottom: 0;
+	}
+
+	.personal-left {
+		margin-top: 40px;
+	}
+
+	.personal-use-section.choose .bg-color {
+		padding: 100px 0 0 0;
+	}
+
+	.personal-left .app-image {
+		padding: 100px 0 100px 0;
+	}
+
+	.fund-section {
+		padding: 100px 0;
+	}
+
+	.faq-section {
+		padding: 50px 0;
+	}
+
+	.faq-section .sec-title {
+		margin-bottom: 80px;
+	}
+
 }
 
 
