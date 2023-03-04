@@ -41,6 +41,14 @@
 	.newsletter-section .bg-image::before {
 		right: -260px;
 	}
+
+}
+
+@media only screen and (max-width: 1260px){
+	.hero-section .upper-text h1::before {
+		right: 115px;
+	}
+
 }
 
 @media only screen and (max-width: 1200px){
