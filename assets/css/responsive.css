@@ -231,6 +231,32 @@
 		padding: 40px;
 	}
 
+.page-title{
+	padding: 200px 0 100px 0;
+}
+
+.page-title .text-1,
+.page-title .text-2 {
+	font-size: 3rem;
+    line-height: 5rem;
+}
+
+.mission-inner{
+	padding: 40px;
+}
+
+.mission-inner img{
+	width: 100%;
+	max-width: 200px;
+	display: flex;
+    margin: auto;
+}
+
+.mission-text .text li {
+    font-size: 22px;
+}
+
+
 }
 @media only screen and (max-width: 575px){
 	
